@@ -1343,7 +1343,7 @@ footer .credits a {
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
   font-size:medium;
 }
 .hover-text
@@ -1360,4 +1360,19 @@ footer .credits a {
 
 .image-container:hover .hover-content {
   opacity: 1;
+}
+
+/* CSS to style the button like a link */
+.link-button {
+  background: none;
+  color: blue;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: darkblue;
 }
